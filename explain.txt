@@ -1,0 +1,5 @@
+sms-url=发送短信的URL
+sms-account=账户名称，必要时可以使用UrlEncoder
+sms-password=密码
+#可选择配置，可支持多种占位符号，不配置默认是$_$，例如：$userNm$占位，则参数params里需要放userNm对应的值
+sms-special-symbol=$_$,|#|_|#|,|_|
